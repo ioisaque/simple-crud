@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!-- META DEFAULT -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Isaque Costa" />
+
+    <meta name="theme-color" content="#000000" />
+
+    <!-- META CLIENT -->
+    <meta name="description" content="React App - Jobsity" />
+    <meta name="keywords" content="designer, website, responsive, dev, web development, apps, android, iOS, iPhone, apple">
+
+    <!-- TITLE CLIENT -->
+    <title>React App - Jobsity</title>
+
+    <!-- DEFAULT FAVICONS -->
+    <link rel="shortcut icon" href="https://cdn.ideyou.com.br/defaults/img/favicon.png">
+    <link rel="apple-touch-icon" href="https://cdn.ideyou.com.br/defaults/img/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.ideyou.com.br/defaults/img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://cdn.ideyou.com.br/defaults/img/touch-icon-ipad-retina.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.ideyou.com.br/defaults/img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-startup-image" href="https://cdn.ideyou.com.br/defaults/img/launch_logo.png">
+
+    <style>
+      .slimScrollDiv::-webkit-scrollbar,
+      body::-webkit-scrollbar {
+        width: .6rem;
+        background-color: #FFF;
+        border-radius: calc(.25rem - 1px)
+      }
+
+      .slimScrollDiv::-webkit-scrollbar-track,
+      body::-webkit-scrollbar-track {
+        border-radius: 0 calc(.25rem - 1px) calc(.25rem - 1px) 0;
+      }
+
+      .slimScrollDiv::-webkit-scrollbar-thumb,
+      body::-webkit-scrollbar-thumb {
+        background-color: #a42ef3;
+        outline: 1px solid #a42ef3;
+      }
+    </style>
+    <!-- END OF CONFIGS -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
